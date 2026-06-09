@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <strong>Python · Rust · Go · C++ · C# · Java · TypeScript · Elixir</strong>
+  <strong>Python · Rust · Go · C++ · C# · Java · TypeScript · Elixir · Swift · Zig</strong>
   <br/><br/>
   <a href="https://github.com/kazah-png?tab=repositories">
     <img src="https://img.shields.io/badge/repositories-view%20all-0d1117?style=flat&logo=github&logoColor=white" />
@@ -33,6 +33,8 @@ The common thread is going to the root: implementing the algorithm or the protoc
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat&logo=swift&logoColor=white)
+![Zig](https://img.shields.io/badge/Zig-0.13-F7A41D?style=flat&logo=zig&logoColor=white)
 
 **Inference & vision**
 
@@ -114,6 +116,17 @@ Dynamo-style key-value store. Consistent hash ring with virtual nodes for data p
 
 ---
 
+**[distributed-cron-scheduler-swift](https://github.com/kazah-png/distributed-cron-scheduler-swift)** · Swift / Vapor
+
+Fault-tolerant distributed cron scheduler. Multiple nodes compete for leadership via a PostgreSQL advisory lock with TTL. Only the leader executes jobs; a standby takes over within seconds if the leader crashes. Full run history, retry with exponential backoff, REST API, 2-node Docker Compose cluster.
+
+![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat&logo=swift&logoColor=white)
+![Vapor](https://img.shields.io/badge/Vapor-4-0099CC?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+---
+
 ### AI & Search
 
 ---
@@ -137,6 +150,14 @@ Streaming event processor with declarative fraud rules. GenStage pipeline with b
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white)
 ![GenStage](https://img.shields.io/badge/GenStage-4B275F?style=flat)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+---
+
+**[prometheus-like-tsdb](https://github.com/kazah-png/prometheus-like-tsdb-zig)** · Zig
+
+Time series database from scratch in Zig, no external dependencies. Gorilla XOR compression for float64 samples (~1.4 bytes/sample), DFCM timestamp encoding, write-ahead log for crash recovery, inverted label index for fast selector queries, aggregations (`sum`, `avg`, `max`, `min`), memory-mapped block files. HTTP API compatible with Prometheus text exposition format.
+
+![Zig](https://img.shields.io/badge/Zig-0.13-F7A41D?style=flat&logo=zig&logoColor=white)
 
 ---
 
