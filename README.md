@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <strong>Python · Rust · Go · C++ · C# · Java · TypeScript · Elixir · Swift · Zig</strong>
+  <strong>Python · Rust · Go · C · C++ · C# · Java · TypeScript · Elixir · Swift · Zig · Assembly</strong>
   <br/><br/>
   <a href="https://github.com/kazah-png?tab=repositories">
     <img src="https://img.shields.io/badge/repositories-view%20all-0d1117?style=flat&logo=github&logoColor=white" />
@@ -15,7 +15,7 @@
 
 ## About
 
-I build systems across several layers of the stack — game automation pipelines driven by computer vision, distributed infrastructure components implemented from scratch, real-time networking servers, and low-level Linux container primitives.
+I build systems across several layers of the stack — game automation pipelines driven by computer vision, distributed infrastructure components implemented from scratch, real-time networking servers, low-level Linux container primitives, and custom x86 kernels.
 
 The common thread is going to the root: implementing the algorithm or the protocol directly rather than wrapping a library that already does it.
 
@@ -28,6 +28,7 @@ The common thread is going to the root: implementing the algorithm or the protoc
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat&logo=rust&logoColor=white)
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B17-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-.NET%208-512BD4?style=flat&logo=dotnet&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=flat&logo=openjdk&logoColor=white)
@@ -35,6 +36,7 @@ The common thread is going to the root: implementing the algorithm or the protoc
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white)
 ![Swift](https://img.shields.io/badge/Swift-5.9-F05138?style=flat&logo=swift&logoColor=white)
 ![Zig](https://img.shields.io/badge/Zig-0.13-F7A41D?style=flat&logo=zig&logoColor=white)
+![Assembly](https://img.shields.io/badge/x86%20Assembly-6E4C13?style=flat&logo=assemblyscript&logoColor=white)
 
 **Inference & vision**
 
@@ -58,20 +60,45 @@ ONNX execution providers: **CUDA · DirectML · TensorRT · OpenVINO · CPU**
 ![Boost.Asio](https://img.shields.io/badge/Boost.Asio-00599C?style=flat)
 ![GenStage](https://img.shields.io/badge/GenStage-4B275F?style=flat)
 
+**Kernel & low-level**
+
+![x86](https://img.shields.io/badge/x86%20Protected%20Mode-00599C?style=flat)
+![Paging](https://img.shields.io/badge/Paging-4B8BBE?style=flat)
+![GDT/IDT](https://img.shields.io/badge/GDT%2FIDT-007ACC?style=flat)
+![ISR/IRQ](https://img.shields.io/badge/ISR%2FIRQ-3CB371?style=flat)
+![PIT](https://img.shields.io/badge/PIT-FF6600?style=flat)
+![VGA](https://img.shields.io/badge/VGA-FF6347?style=flat)
+![PS/2](https://img.shields.io/badge/PS%2F2-8B4513?style=flat)
+![Multiboot](https://img.shields.io/badge/Multiboot-FFD700?style=flat)
+
 **Tooling**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![PyInstaller](https://img.shields.io/badge/PyInstaller-3776AB?style=flat&logo=python&logoColor=white)
+![NASM](https://img.shields.io/badge/NASM-009A9E?style=flat)
+![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat&logo=qemu&logoColor=white)
+![GCC](https://img.shields.io/badge/GCC-FFD700?style=flat&logo=gcc&logoColor=black)
 
 **Algorithms**
 
-HNSW · A\* pathfinding · Consistent hashing · Gossip protocol · CRDT (RGA) · Segmented WAL · Idempotent producer protocol · Priority state machine · Binpacking scheduler
+HNSW · A* pathfinding · Consistent hashing · Gossip protocol · CRDT (RGA) · Segmented WAL · Idempotent producer protocol · Priority state machine · Binpacking scheduler · SHA-256 · MD5
 
 ---
 
 ## Projects
 
 ### Systems & Infrastructure
+
+---
+
+**[NyxOS](https://github.com/kazah-png/nyx-os)** · C / Assembly
+
+Custom 32-bit x86 kernel from scratch. Multiboot boot, protected mode, paging, GDT/IDT/ISR/IRQ, PIT timer, PS/2 keyboard (US/ES), VGA text mode, physical memory manager, heap allocator, process table, VFS, EXT2, TCP/IP stack, SHA-256/MD5. Built-in shell with 25+ commands. Loadable kernel modules for offensive security research (rootkit, backdoor, keylogger, injector, scanner, C2, ransomware, cryptominer).
+
+![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
+![Assembly](https://img.shields.io/badge/x86%20Assembly-6E4C13?style=flat&logo=assemblyscript&logoColor=white)
+![NASM](https://img.shields.io/badge/NASM-009A9E?style=flat)
+![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat&logo=qemu&logoColor=white)
 
 ---
 
@@ -191,7 +218,7 @@ Real-time collaborative text editor using the RGA (Replicated Growable Array) CR
 
 **[KZH AI](https://github.com/kazah-png/kzh-ai-bot)** · Python
 
-Brawl Stars Trio Showdown automation bot. Operates exclusively over ADB: captures emulator frames, runs ONNX entity detection (CUDA/DirectML/TensorRT/OpenVINO), classifies game state through an 11-state priority machine, and issues ADB commands. A\* pathfinding, analog joystick emulation, fog avoidance, adaptive brain. 23-module codebase, CustomTkinter GUI, Discord/Telegram remote control, PyInstaller distribution.
+Brawl Stars Trio Showdown automation bot. Operates exclusively over ADB: captures emulator frames, runs ONNX entity detection (CUDA/DirectML/TensorRT/OpenVINO), classifies game state through an 11-state priority machine, and issues ADB commands. A* pathfinding, analog joystick emulation, fog avoidance, adaptive brain. 23-module codebase, CustomTkinter GUI, Discord/Telegram remote control, PyInstaller distribution.
 
 `~57% first-place rate · multiple brawlers pushed 0 → 1000 trophies unattended`
 
