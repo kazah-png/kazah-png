@@ -216,16 +216,6 @@ Real-time collaborative text editor using the RGA (Replicated Growable Array) CR
 
 ---
 
-**[KZH AI](https://github.com/kazah-png/kzh-ai-bot)** · Python
-
-Brawl Stars Trio Showdown automation bot. Operates exclusively over ADB: captures emulator frames, runs ONNX entity detection (CUDA/DirectML/TensorRT/OpenVINO), classifies game state through an 11-state priority machine, and issues ADB commands. A* pathfinding, analog joystick emulation, fog avoidance, adaptive brain. 23-module codebase, CustomTkinter GUI, Discord/Telegram remote control, PyInstaller distribution.
-
-`~57% first-place rate · multiple brawlers pushed 0 → 1000 trophies unattended`
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX%20Runtime-005CED?style=flat)
-![ADB](https://img.shields.io/badge/ADB-3DDC84?style=flat&logo=android&logoColor=white)
-
 ---
 
 **[GARGUEL](https://github.com/kazah-png/GARGUEL)** · Python
