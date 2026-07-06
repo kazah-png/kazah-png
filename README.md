@@ -37,6 +37,7 @@ The common thread is going to the root: implementing protocols and algorithms di
 ![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)
 ![Zig](https://img.shields.io/badge/Zig-F7A41D?style=flat&logo=zig&logoColor=white)
 ![Assembly](https://img.shields.io/badge/x86%20Assembly-6E4C13?style=flat&logo=assemblyscript&logoColor=white)
+![NyxC](https://img.shields.io/badge/%F0%9F%8C%99%20NyxC-runtime-8b5cf6?style=flat)
 
 **Inference & vision**
 
@@ -88,10 +89,11 @@ HNSW · A* pathfinding · Consistent hashing · Gossip protocol · CRDT (RGA) ·
 
 ### Systems & Infrastructure
 
-**[NyxOS](https://github.com/kazah-png/nyx-os)** · C, Assembly — x86_64 kernel with GUI compositor, full TCP/IP stack, and ring-3 userspace. Multiboot boot → long mode → 4-level paging (higher-half, NX+SMEP) → windowed desktop with taskbar. ELF64 loader, initramfs, 10 syscalls via `syscall`/`sysret`, ring-3 processes with isolated page tables. EXT2 read/write with auto-mount. PC speaker + Sound Blaster 16 DMA audio. 40+ shell commands, pipes, env vars, Tab completion, command history. Boot animation with login screen. Written entirely from scratch — no external libraries.
+**[NyxOS](https://github.com/kazah-png/nyx-os)** · C, Assembly, 🌙 Nyx C — x86_64 kernel with GUI compositor, full TCP/IP stack, ring-3 userspace, and a native language runtime. Multiboot boot → long mode → 4-level paging (higher-half, NX+SMEP) → windowed desktop with taskbar. ELF64 loader, initramfs, `fork()` with COW, 11 syscalls via `syscall`/`sysret`, ring-3 processes with isolated page tables. EXT2 read/write with auto-mount. PC speaker + Sound Blaster 16 DMA audio. Preemptive weighted scheduler, SMP, `nice`/`renice`, job control. 40+ shell commands, pipes, env vars, Tab completion, command history. Boot animation with login screen. **🌙 Nyx C**: Go/Zig-inspired typed language that transpiles to C and runs natively on NyxOS. Written entirely from scratch — no external libraries.
 
 [![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)](https://github.com/kazah-png/nyx-os)
 [![Assembly](https://img.shields.io/badge/x86%20Assembly-6E4C13?style=flat&logo=assemblyscript&logoColor=white)](https://github.com/kazah-png/nyx-os)
+[![NyxC](https://img.shields.io/badge/%F0%9F%8C%99%20NyxC-runtime-8b5cf6?style=flat)](https://github.com/kazah-png/nyx-os)
 [![NASM](https://img.shields.io/badge/NASM-009A9E?style=flat)](https://github.com/kazah-png/nyx-os)
 [![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat&logo=qemu&logoColor=white)](https://github.com/kazah-png/nyx-os)
 
