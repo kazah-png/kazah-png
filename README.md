@@ -45,17 +45,19 @@ The common thread is going to the root: implementing protocols and algorithms di
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![NyxC](https://img.shields.io/badge/%F0%9F%8C%99%20NyxC-runtime-8b5cf6?style=flat)
+![N](https://img.shields.io/badge/%F0%9F%8C%99%20N-v0.1-8b5cf6?style=flat)
+![N++](https://img.shields.io/badge/%F0%9F%8C%99%20N%2B%2B-design-8b5cf6?style=flat)
 
 ---
 
 ## Flagship — NyxOS
 
-**[NyxOS](https://github.com/kazah-png/nyx-os)** · C, Assembly — a from-scratch x86_64 operating system. Multiboot → long mode → 4-level paging (higher-half, NX + SMEP), a double-buffered window compositor with taskbar, a full TCP/IP stack, and a ring-3 POSIX-style userspace (ELF64 loader, copy-on-write `fork`, 57 syscalls via `syscall`/`sysret`, per-process isolated page tables). EXT2 read/write with auto-mount, SMP multi-core, PC speaker + Sound Blaster 16 audio, a preemptive weighted scheduler, and 40+ shell commands. Ships an **in-OS C toolchain** — a ported TinyCC that compiles C to native ELF inside the running system and **self-hosts**: the compiler compiles its own source, then `cc --self` builds programs with that self-built compiler. Also home to **Nyx C**, a typed language that transpiles to C. Written entirely from scratch — no external libraries.
+**[NyxOS](https://github.com/kazah-png/nyx-os)** · C, Assembly — a from-scratch x86_64 operating system. Multiboot → long mode → 4-level paging (higher-half, NX + SMEP), a double-buffered window compositor with taskbar, a full TCP/IP stack, and a ring-3 POSIX-style userspace (ELF64 loader, copy-on-write `fork`, 57 syscalls via `syscall`/`sysret`, per-process isolated page tables). EXT2 read/write with auto-mount, SMP multi-core, PC speaker + Sound Blaster 16 audio, a preemptive weighted scheduler, and 40+ shell commands. Ships an **in-OS C toolchain** — a ported TinyCC that compiles C to native ELF inside the running system and **self-hosts**: the compiler compiles its own source, then `cc --self` builds programs with that self-built compiler. Also home to **N** and **N++**, its native languages: N compiles to C through the in-OS toolchain today, and N++ is the typed superset in design — one language family built for one OS, HolyC-style. Written entirely from scratch — no external libraries.
 
 [![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)](https://github.com/kazah-png/nyx-os)
 [![Assembly](https://img.shields.io/badge/x86%20Assembly-6E4C13?style=flat&logo=assemblyscript&logoColor=white)](https://github.com/kazah-png/nyx-os)
-[![NyxC](https://img.shields.io/badge/%F0%9F%8C%99%20NyxC-runtime-8b5cf6?style=flat)](https://github.com/kazah-png/nyx-os)
+[![N](https://img.shields.io/badge/%F0%9F%8C%99%20N-v0.1-8b5cf6?style=flat)](https://github.com/kazah-png/nyx-os/tree/master/lang)
+[![N++](https://img.shields.io/badge/%F0%9F%8C%99%20N%2B%2B-design-8b5cf6?style=flat)](https://github.com/kazah-png/nyx-os/tree/master/lang)
 [![NASM](https://img.shields.io/badge/NASM-009A9E?style=flat)](https://github.com/kazah-png/nyx-os)
 [![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat&logo=qemu&logoColor=white)](https://github.com/kazah-png/nyx-os)
 
