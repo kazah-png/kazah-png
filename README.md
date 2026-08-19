@@ -45,7 +45,7 @@ The common thread is going to the root: implementing protocols and algorithms di
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![Elixir](https://img.shields.io/badge/Elixir-4B275F?style=flat&logo=elixir&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![N](https://img.shields.io/badge/%F0%9F%8C%99%20N-v0.19-8b5cf6?style=flat)
+![N](https://img.shields.io/badge/%F0%9F%8C%99%20N-v0.20-8b5cf6?style=flat)
 ![N++](https://img.shields.io/badge/%F0%9F%8C%99%20N%2B%2B-design-8b5cf6?style=flat)
 
 ---
@@ -56,7 +56,7 @@ The common thread is going to the root: implementing protocols and algorithms di
 
 [![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)](https://github.com/kazah-png/nyx-os)
 [![Assembly](https://img.shields.io/badge/x86%20Assembly-6E4C13?style=flat&logo=assemblyscript&logoColor=white)](https://github.com/kazah-png/nyx-os)
-[![N](https://img.shields.io/badge/%F0%9F%8C%99%20N-v0.19-8b5cf6?style=flat)](https://github.com/kazah-png/nyx-os/tree/master/lang)
+[![N](https://img.shields.io/badge/%F0%9F%8C%99%20N-v0.20-8b5cf6?style=flat)](https://github.com/kazah-png/nyx-os/tree/master/lang)
 [![N++](https://img.shields.io/badge/%F0%9F%8C%99%20N%2B%2B-design-8b5cf6?style=flat)](https://github.com/kazah-png/nyx-os/tree/master/lang)
 [![NASM](https://img.shields.io/badge/NASM-009A9E?style=flat)](https://github.com/kazah-png/nyx-os)
 [![QEMU](https://img.shields.io/badge/QEMU-FF6600?style=flat&logo=qemu&logoColor=white)](https://github.com/kazah-png/nyx-os)
