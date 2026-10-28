@@ -4,11 +4,9 @@
 
 I build operating systems and native applications, from kernels and networking stacks to Windows automation tools. My main focus is C, C++, and low-level development.
 
-## Featured project
+## NyxOS
 
-### [NyxOS](https://github.com/nyxos-dev/nyx-os)
-
-An x86_64 operating system built in C and Assembly, with a graphical desktop, TCP/IP networking, a POSIX-style userspace, and support for QEMU and physical UEFI hardware.
+My main project, [NyxOS](https://github.com/nyxos-dev/nyx-os), is an x86_64 operating system built in C and Assembly. It includes a graphical desktop, TCP/IP networking, a POSIX-style userspace, and support for QEMU and physical UEFI hardware. Development and companion projects live under [nyxos-dev](https://github.com/nyxos-dev).
 
 - **Kernel & userspace:** virtual memory, SMP, preemptive scheduling, ELF64 programs, and an EXT2 filesystem.
 - **Toolchain:** a self-hosting C compiler based on TinyCC, the `xbm` package manager, and **N**, a native language that compiles to C. **N++**, its typed superset, is in design.
@@ -32,13 +30,15 @@ An x86_64 operating system built in C and Assembly, with a graphical desktop, TC
 
 </details>
 
-## [Zzen Automation](https://github.com/zzen-automation)
+## Zzen Automation
 
-| Project | Description |
-| --- | --- |
-| [Zzen](https://github.com/zzen-automation/Zzen) | Native C++ companion for automating Chronicle matches in Inazuma Eleven: Victory Road. |
-| [R-Zzen](https://github.com/zzen-automation/R-Zzen) | Native C++ Windows app for visual automation in Roblox Army Commander Tycoon. |
+My native C++ Windows tools live under [Zzen Automation](https://github.com/zzen-automation). They automate repetitive gameplay tasks through screen recognition and standard keyboard and mouse input.
+
+| Project | Focus | Download |
+| --- | --- | --- |
+| [Zzen](https://github.com/zzen-automation/Zzen) | Chronicle match automation for Inazuma Eleven: Victory Road. | [Latest release](https://github.com/zzen-automation/Zzen/releases/latest) |
+| [R-Zzen](https://github.com/zzen-automation/R-Zzen) | Construction, prestige, and keep-active automation for Roblox Army Commander Tycoon. | [Latest release](https://github.com/zzen-automation/R-Zzen/releases/latest) |
 
 ---
 
-[Personal repositories](https://github.com/kazah-png?tab=repositories) · [Zzen Automation](https://github.com/zzen-automation) · [NyxOS organization](https://github.com/nyxos-dev) · [NyxOS website](https://nyxos.cc)
+[NyxOS website](https://nyxos.cc) · [NyxOS repositories](https://github.com/orgs/nyxos-dev/repositories) · [Zzen repositories](https://github.com/orgs/zzen-automation/repositories)
