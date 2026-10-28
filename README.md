@@ -1,36 +1,44 @@
 # kazah-png
 
-**Systems programming & operating system development**
+**Systems programming · Operating systems · Native desktop tools**
 
-I build operating systems, networking stacks, and infrastructure from the ground up, with a focus on understanding how systems work at every layer.
+I build operating systems and native applications, from kernels and networking stacks to Windows automation tools. My main focus is C, C++, and low-level development.
 
 ## Featured project
 
-### [NyxOS](https://github.com/kazah-png/nyx-os)
+### [NyxOS](https://github.com/nyxos-dev/nyx-os)
 
-An x86_64 operating system built in C and Assembly, featuring a graphical desktop, TCP/IP networking, and a POSIX-style userspace.
+An x86_64 operating system built in C and Assembly, with a graphical desktop, TCP/IP networking, a POSIX-style userspace, and support for QEMU and physical UEFI hardware.
 
-- **Kernel:** virtual memory, SMP, and preemptive scheduling.
-- **Userspace:** ELF64 programs, copy-on-write `fork`, and an EXT2 filesystem.
-- **Development:** an in-OS C toolchain based on TinyCC, plus **N**, a native language that compiles to C. **N++**, its typed superset, is in design.
-
-## One OS, many languages
-
-The NyxOS family explores operating system development across different languages, with dedicated bare-metal toolchains and QEMU-based boot verification.
+- **Kernel & userspace:** virtual memory, SMP, preemptive scheduling, ELF64 programs, and an EXT2 filesystem.
+- **Toolchain:** a self-hosting C compiler based on TinyCC, the `xbm` package manager, and **N**, a native language that compiles to C. **N++**, its typed superset, is in design.
+- **Language family:** the C implementation and 17 sibling ports, all booting, under [nyxos-dev](https://github.com/nyxos-dev).
 
 <details>
-<summary>Explore the implementations</summary>
+<summary>Explore the NyxOS ecosystem</summary>
 
-**Booting**
+**Language implementations**
 
-[C](https://github.com/kazah-png/nyx-os) · [Assembly](https://github.com/kazah-png/NyxOS-Asm) · [C++](https://github.com/kazah-png/NyxOS-Cpp) · [Rust](https://github.com/kazah-png/NyxOS-Rust) · [Zig](https://github.com/kazah-png/NyxOS-Zig) · [D](https://github.com/kazah-png/NyxOS-D) · [Nim](https://github.com/kazah-png/NyxOS-Nim) · [Ada](https://github.com/kazah-png/NyxOS-Ada) · [Odin](https://github.com/kazah-png/NyxOS-Odin) · [C#](https://github.com/kazah-png/NyxOS-CSharp) · [Hare](https://github.com/kazah-png/NyxOS-Hare)
+[C](https://github.com/nyxos-dev/nyx-os) · [Assembly](https://github.com/nyxos-dev/NyxOS-Asm) · [C++](https://github.com/nyxos-dev/NyxOS-Cpp) · [Rust](https://github.com/nyxos-dev/NyxOS-Rust) · [Zig](https://github.com/nyxos-dev/NyxOS-Zig) · [D](https://github.com/nyxos-dev/NyxOS-D) · [Nim](https://github.com/nyxos-dev/NyxOS-Nim) · [Ada](https://github.com/nyxos-dev/NyxOS-Ada) · [Odin](https://github.com/nyxos-dev/NyxOS-Odin) · [C#](https://github.com/nyxos-dev/NyxOS-CSharp) · [Hare](https://github.com/nyxos-dev/NyxOS-Hare) · [Go](https://github.com/nyxos-dev/NyxOS-Go) · [Swift](https://github.com/nyxos-dev/NyxOS-Swift) · [OCaml](https://github.com/nyxos-dev/NyxOS-OCaml) · [Haskell](https://github.com/nyxos-dev/NyxOS-Haskell) · [Common Lisp](https://github.com/nyxos-dev/NyxOS-Lisp) · [Pascal](https://github.com/nyxos-dev/NyxOS-Pascal) · [COBOL](https://github.com/nyxos-dev/NyxOS-COBOL)
 
-**In progress**
+**Desktop & tools**
 
-[Go](https://github.com/kazah-png/NyxOS-Go) · [Swift](https://github.com/kazah-png/NyxOS-Swift) · [OCaml](https://github.com/kazah-png/NyxOS-OCaml) · [Haskell](https://github.com/kazah-png/NyxOS-Haskell) · [Common Lisp](https://github.com/kazah-png/NyxOS-Lisp)
+- [Hemera](https://github.com/nyxos-dev/hemera) — desktop compositor.
+- [Erebus](https://github.com/nyxos-dev/erebus) — terminal hosting the `nyxsh` shell.
+- [Selene](https://github.com/nyxos-dev/selene) — web browser with HTTP/HTTPS support.
+- [Mnemosyne](https://github.com/nyxos-dev/mnemosyne) — text editor.
+- [Oneiros](https://github.com/nyxos-dev/oneiros) — generative neural network running inside NyxOS.
+- [Ports](https://github.com/nyxos-dev/ports) — packages compiled inside the OS with `cc`.
 
 </details>
 
+## Native applications
+
+| Project | Description |
+| --- | --- |
+| [Zzen](https://github.com/kazah-png/Zzen) | Native C++ companion for automating Chronicle matches in Inazuma Eleven: Victory Road. |
+| [R-Zzen](https://github.com/kazah-png/R-Zzen) | Native C++ Windows app for visual automation in Roblox Army Commander Tycoon. |
+
 ---
 
-[Explore all repositories →](https://github.com/kazah-png?tab=repositories)
+[Personal repositories](https://github.com/kazah-png?tab=repositories) · [NyxOS organization](https://github.com/nyxos-dev) · [NyxOS website](https://nyxos.cc)
