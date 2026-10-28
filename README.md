@@ -32,13 +32,13 @@ An x86_64 operating system built in C and Assembly, with a graphical desktop, TC
 
 </details>
 
-## Native applications
+## [Zzen Automation](https://github.com/zzen-automation)
 
 | Project | Description |
 | --- | --- |
-| [Zzen](https://github.com/kazah-png/Zzen) | Native C++ companion for automating Chronicle matches in Inazuma Eleven: Victory Road. |
-| [R-Zzen](https://github.com/kazah-png/R-Zzen) | Native C++ Windows app for visual automation in Roblox Army Commander Tycoon. |
+| [Zzen](https://github.com/zzen-automation/Zzen) | Native C++ companion for automating Chronicle matches in Inazuma Eleven: Victory Road. |
+| [R-Zzen](https://github.com/zzen-automation/R-Zzen) | Native C++ Windows app for visual automation in Roblox Army Commander Tycoon. |
 
 ---
 
-[Personal repositories](https://github.com/kazah-png?tab=repositories) · [NyxOS organization](https://github.com/nyxos-dev) · [NyxOS website](https://nyxos.cc)
+[Personal repositories](https://github.com/kazah-png?tab=repositories) · [Zzen Automation](https://github.com/zzen-automation) · [NyxOS organization](https://github.com/nyxos-dev) · [NyxOS website](https://nyxos.cc)
